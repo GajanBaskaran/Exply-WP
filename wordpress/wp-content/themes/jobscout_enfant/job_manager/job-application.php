@@ -4,6 +4,9 @@
 	<div class="job_application application">
 		<?php do_action( 'job_application_start', $apply ); ?>
 
+		<input type="file" name="cv_upload" id="cv_upload" />
+
+
 		<input type="button" class="application_button button" value="<?php esc_attr_e( 'Apply for job', 'jobscout' ); ?>" />
 
 		<div class="application_details">
